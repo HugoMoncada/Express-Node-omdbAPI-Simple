@@ -1,0 +1,39 @@
+<%- include("partials/header") %>
+
+
+<main class="container mb-3">
+    <h1 class="text-center mt-4">- RESULTS -</h1>
+    <hr>
+
+    <% if(results == "Movie not found!"){ %>
+
+        <h2 class="my-5 text-center">Movie Not Found!</h2>
+
+    <% } else if(results == "Too many results be more especific please!!") { %>
+
+        <h2 class="my-5 text-center">Too many results, please be more especific!</h2>
+    
+    <%} else {%>   
+        <div class="row text-center mb-5">
+    
+            <% results.forEach((movie)=>{ %>
+                <div class="col-lg-3 col-md-4 col-12 mb-5 mt-5 ">
+                    <div class="d-block mb-3 poster">
+                          <% if(movie.Poster == "N/A") {%>
+                            <img class="img img-fluid img-thumbnail p-0 h-100 mb-1" src="https://www.etyellowpages.com/images/cinema/NoPoster.jpg" alt="">
+
+                          <% } else { %>
+                            <img class="img img-fluid img-thumbnail h-100 mb-1" src="<%=movie.Poster%>" alt="">
+                          <% } %>      
+                          <p class="mb-1 title"><%=movie.Title%></p>
+                          <p><%=movie.Year%></p>
+                    </div>
+                  </div>
+            <% }) %>
+    
+        </div>
+    <%}%>    
+        <a href="/" class="btn btn-lg btn-block">Home</a>
+</main>
+
+<%- include("partials/footer") %>

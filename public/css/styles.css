@@ -1,0 +1,82 @@
+body{
+    background: rgb(1, 1, 17);
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 25px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 15px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 12px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 1.2px, transparent 15px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* RESULTS */
+
+.img{
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 11px 0px rgba(255, 255, 255, 0.4);
+}
+
+.img-thumbnail{
+    padding: 0px !important;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.poster{
+  height: 335px;
+}  
+
+hr{
+  border: 1px solid white;
+  width: 70%;
+}
+
+h1{
+  text-shadow: 0px 1px 1px rgb(0, 0, 0);
+}
+
+p{
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+}
+
+/* HOME */
+.bg {
+    background: rgb(1, 1, 17);
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 25px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 15px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 12px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 1.5px, transparent 17px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+}
+
+
+input{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+
+.btn{
+    background-color: rgba(1, 1, 17, 0.7);
+    border: 1px solid white;
+    color: white;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 11px 0px rgba(255, 255, 255, 0.4);
+}
+
+.home{
+    margin-top: 25%;
+}
+
+/* by Hugo Moncada */
