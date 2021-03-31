@@ -23,9 +23,8 @@ Project is created with:
 * Bootstrap
 
 ## Ilustrations
-![](public/Screenshot1.png)
-![](public/Screenshot2.png)
-
+![](/public/images/Screenshot_2020-07-25.png)
+![](/public/images/Screenshot_2020-07-25-2.png)
 	
 ## Setup
 To run this project, install it locally using npm:
